@@ -1,0 +1,16 @@
+.bg-success {
+    background-color:  #B9FF66 !important;
+    ;
+}
+
+.imgplus {
+    width: max-content;
+}
+
+.cardheading {
+    width: max-content;
+}
+
+.form-card {
+    height: 500px;
+}
