@@ -1,16 +1,34 @@
 .bg-success {
-    background-color:  #B9FF66 !important;
-    ;
+  background-color: #b9ff66 !important;
 }
 
 .imgplus {
-    width: max-content;
+  width: max-content;
 }
 
 .cardheading {
-    width: max-content;
+  width: max-content;
 }
 
 .form-card {
-    height: 500px;
+  height: 500px;
+}
+
+.accordion {
+  --bs-accordion-btn-bg: #d1d3cd !important;
+  --bs-accordion-active-bg: #b9ff66 !important;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-bg: #b9ff66 !important;
+  --bs-accordion-border-radius: 50px;
+  --bs-accordion-inner-border-radius: 50px;
+}
+
+.accordion-button::after {
+  background-image: url(./Assets/Plusicon.png);
+  background-repeat: no-repeat;
+  scale: 2.5;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(./Assets/minusicon.png);
 }

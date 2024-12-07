@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Bootsrap.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Positivus</title>
   </head>
   <body>
     <div class="container-fluid">
@@ -232,120 +232,194 @@
       </div>
     </section>
 
+    <!-- Accordions  -->
     <section class="mt-5">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12 mt-3">
-            <div class="card p-3 bg-success rounded-5">
-              <div class="row justify-content-between">
-                <span class="cardheading">
-                  <span class="ho1 fs-1">01</span>
-                  <span class="fs-4">Consultation</span>
-                </span>
+        <div class="accordion" id="accordionExample">
+          <!-- accordion 1 -->
+          <div class="accordion-item mb-3 rounded-5">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button px-5 py-4 rounded-5"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                <h3 class="align-items-center d-flex m-0">
+                  <span class="fs-1 me-3">01</span> Consultation
+                </h3>
+              </button>
+            </h2>
 
-                <span class="imgplus">
-                  <img
-                    class="img-fluid"
-                    src="./Assets/Plus icon.png"
-                    alt="plus icon"
-                  />
-                </span>
-              </div>
-              <hr />
-              <p>During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-12 mt-3">
-            <div class="card p-3 bg-warning-subtle rounded-5">
-              <div class="row justify-content-between">
-                <span class="cardheading">
-                  <span class="ho1 fs-1">02</span>
-                  <span class="fs-4">Research and Strategy Development</span>
-                </span>
-
-                <span class="imgplus">
-                  <img
-                    class="img-fluid"
-                    src="./Assets/Plusicon.png"
-                    alt="plus icon"
-                  />
-                </span>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <hr class="bg-black mx-5 m-0" />
+              <div class="accordion-body py-4 px-5">
+                During the initial consultation, we will discuss your business
+                goals and objectives, target audience, and current marketing
+                efforts. This will allow us to understand your needs and tailor
+                our services to best fit your requirements.
               </div>
             </div>
           </div>
 
-          <div class="col-lg-12 mt-3">
-            <div class="card p-3 bg-warning-subtle rounded-5">
-              <div class="row justify-content-between">
-                <span class="cardheading">
-                  <span class="ho1 fs-1">03</span>
-                  <span class="fs-4">Implementation</span>
-                </span>
-
-                <span class="imgplus">
-                  <img
-                    class="img-fluid"
-                    src="./Assets/Plusicon.png"
-                    alt="plus icon"
-                  />
-                </span>
-              </div>
-            </div>
-
-          <div class="col-lg-12 mt-3">
-            <div class="card p-3 bg-warning-subtle rounded-5">
-              <div class="row justify-content-between">
-                <span class="cardheading">
-                  <span class="ho1 fs-1">04</span>
-                  <span class="fs-4">Monitoring and Optimization</span>
-                </span>
-
-                <span class="imgplus">
-                  <img
-                    class="img-fluid"
-                    src="./Assets/Plusicon.png"
-                    alt="plus icon"
-                  />
-                </span>
+          <!-- accordion 2 -->
+          <div class="accordion-item mb-3 rounded-5">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed px-5 py-4 rounded-5"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                <h3 class="align-items-center d-flex m-0">
+                  <span class="fs-1 me-3">02</span> Research and Strategy
+                  Development
+                </h3>
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <hr class="bg-black mx-5 m-0" />
+              <div class="accordion-body py-4 px-5">
+                During the initial consultation, we will discuss your business
+                goals and objectives, target audience, and current marketing
+                efforts. This will allow us to understand your needs and tailor
+                our services to best fit your requirements.
               </div>
             </div>
           </div>
 
-          <div class="col-lg-12 mt-3">
-            <div class="card p-3 bg-warning-subtle rounded-5">
-              <div class="row justify-content-between">
-                <span class="cardheading">
-                  <span class="ho1 fs-1">05</span>
-                  <span class="fs-4">Reporting and Communication</span>
-                </span>
-
-                <span class="imgplus">
-                  <img
-                    class="img-fluid"
-                    src="./Assets/Plusicon.png"
-                    alt="plus icon"
-                  />
-                </span>
+          <!-- accordion 3 -->
+          <div class="accordion-item mb-3 rounded-5">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed px-5 py-4 rounded-5"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                <h3 class="align-items-center d-flex m-0">
+                  <span class="fs-1 me-3">03</span> Implementation
+                </h3>
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <hr class="bg-black mx-5 m-0" />
+              <div class="accordion-body py-4 px-5">
+                During the initial consultation, we will discuss your business
+                goals and objectives, target audience, and current marketing
+                efforts. This will allow us to understand your needs and tailor
+                our services to best fit your requirements.
               </div>
             </div>
           </div>
 
-          <div class="col-lg-12 mt-3">
-            <div class="card p-3 bg-warning-subtle rounded-5">
-              <div class="row justify-content-between">
-                <span class="cardheading">
-                  <span class="ho1 fs-1">06</span>
-                  <span class="fs-4 ">Continual Improvement</span>
-                </span>
+          <!-- accordion 4 -->
+          <div class="accordion-item mb-3 rounded-5">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed px-5 py-4 rounded-5"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                <h3 class="align-items-center d-flex m-0">
+                  <span class="fs-1 me-3">04</span> Monitoring and Optimization
+                </h3>
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <hr class="bg-black mx-5 m-0" />
+              <div class="accordion-body py-4 px-5">
+                During the initial consultation, we will discuss your business
+                goals and objectives, target audience, and current marketing
+                efforts. This will allow us to understand your needs and tailor
+                our services to best fit your requirements.
+              </div>
+            </div>
+          </div>
 
-                <span class="imgplus">
-                  <img
-                    class="img-fluid"
-                    src="./Assets/Plusicon.png"
-                    alt="plus icon"
-                  />
-                </span>
+          <!-- accordion 5 -->
+          <div class="accordion-item mb-3 rounded-5">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed px-5 py-4 rounded-5"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                <h3 class="align-items-center d-flex m-0">
+                  <span class="fs-1 me-3">05</span> Reporting and Communication
+                </h3>
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <hr class="bg-black mx-5 m-0" />
+              <div class="accordion-body py-4 px-5">
+                During the initial consultation, we will discuss your business
+                goals and objectives, target audience, and current marketing
+                efforts. This will allow us to understand your needs and tailor
+                our services to best fit your requirements.
+              </div>
+            </div>
+          </div>
+
+          <!-- accordion 6 -->
+          <div class="accordion-item mb-3 rounded-5">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed px-5 py-4 rounded-5"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+                aria-expanded="false"
+                aria-controls="collapseSix"
+              >
+                <h3 class="align-items-center d-flex m-0">
+                  <span class="fs-1 me-3">06</span> Continual Improvement
+                </h3>
+              </button>
+            </h2>
+            <div
+              id="collapseSix"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <hr class="bg-black mx-5 m-0" />
+              <div class="accordion-body py-4 px-5">
+                During the initial consultation, we will discuss your business
+                goals and objectives, target audience, and current marketing
+                efforts. This will allow us to understand your needs and tailor
+                our services to best fit your requirements.
               </div>
             </div>
           </div>
@@ -361,7 +435,7 @@
           </div>
           <div class="col-lg-6">
             <p class="fs-6">
-              Connect with Us: Let's Discuss Your <br>Digital Marketing Needs
+              Connect with Us: Let's Discuss Your <br />Digital Marketing Needs
             </p>
           </div>
         </div>
@@ -370,46 +444,65 @@
 
     <section class="mt-5">
       <div class="container">
-        <div class="col-lg-12">
-          <div class="row"></div>
-        <div class="card form-card bg-warning-subtle p-5">
+        <div class="row bg-warning-subtle rounded-5">
           <div class="col-lg-6">
-            <form>
-              <input type="radio" class="hi" name="hi" id="hi">
-              <label for="hi">Say Hi</label>
-  
-              <input type="radio" class="hi" name="hi" id="get">
-              <label for="get">Get a Code</label>
+            <div class="card form-card rounded-5 p-5 m-5">
+              <form>
+                <input type="radio" class="hi" name="hi" id="hi" />
+                <label for="hi">Say Hi</label>
 
-              <div class="form-floating mb-3 mt-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Email address</label>
-              </div>
-              <div class="form-floating">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                <label for="floatingPassword">Password</label>
-              </div>
+                <input type="radio" class="hi" name="hi" id="get" />
+                <label for="get">Get a Code</label>
 
-              <div class="form-floating mt-3">
-                <textarea class="form-control" id="floatingMessage" placeholder="Message"  cols="30" rows="10"></textarea>
-                <label for="floatingMessage">Message</label>
-              </div>
-              <button class="w-100 bg-dark mt-5 text-white rounded-3 p-3 fs-4">Send Message</button>
-            </form>
+                <div class="form-floating mb-3 mt-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">Password</label>
+                </div>
 
-          </div>
-          
-          <!-- <div class="col-lg-6">
-            <div class="formimg">
-              <img src="./Assets/Illustration2.png" alt="Illustration">
+                <div class="form-floating mt-3">
+                  <textarea
+                    class="form-control"
+                    id="floatingMessage"
+                    placeholder="Message"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                  <label for="floatingMessage">Message</label>
+                </div>
+                <button
+                  class="w-100 bg-dark mt-5 text-white rounded-3 p-3 fs-4"
+                >
+                  Send Message
+                </button>
+              </form>
             </div>
-          </div> -->
-          
-        </div>
-        </div>
-        
-       
+          </div>
 
+          <div class="col-lg-6 my-5 p-0 d-none d-none d-lg-block">
+            <div class="image position-relative">
+              <img
+                class="imageSize position-absolute end-0"
+                height="500px"
+                src="./Assets/Illustration2.png"
+                alt="Illustration"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
