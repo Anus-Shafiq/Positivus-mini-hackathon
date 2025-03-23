@@ -1,6 +1,9 @@
 .bg-success {
   background-color: #b9ff66 !important;
 }
+.text-success {
+  color: #b9ff66 !important;
+}
 
 .imgplus {
   width: max-content;
