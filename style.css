@@ -5,17 +5,9 @@
   color: #b9ff66 !important;
 }
 
-.imgplus {
-  width: max-content;
-}
-
-.cardheading {
-  width: max-content;
-}
-
-.form-card {
+/* .form-card {
   height: 500px;
-}
+} */
 
 .accordion {
   --bs-accordion-btn-bg: #d1d3cd !important;
